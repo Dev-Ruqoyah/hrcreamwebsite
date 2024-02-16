@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glowing</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- swiper js link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- ALERT -->
+      <div
+        style="background: var(--pale-spring-bud)"
+        class="alert p-0 text-center"
+      >
+        <div class="alert-container w-100">
+          <div class="alert-text">
+            <p style="font-size: var(--fs-9)">
+              Free Shipping On All U.S. Orders $50+
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand h-25 w-25" href="#">
+            <img src="images/logo.png" height="100%" width="80%" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#collection">Collection</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#offer">Offer</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main
+      style="
+        height: 80vh;
+        background: url(images/hero-banner-1.jpg);
+        background-position: center;
+      "
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
+      <div class="hero-content h-100">
+        <div class="container h-100">
+          <div
+            class="container-text h-100 d-flex flex-column align-items-start justify-content-center"
+          >
+            <h1 style="font-size: var(--fs-3)">
+              Reveal The <br />
+              Beauty of Skin
+            </h1>
+            <p class="fs-5">
+              Made using clean, non-toxic ingredients, <br />
+              our products are designed for everyone.
+            </p>
+            <button class="btn btn-dark btn-lg">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- COLLECTION -->
+    <section
+      id="collection"
+      class="collection py-lg-5"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
+      <div class="container h-100">
+        <div class="row gap-3 py-lg-5 py-2">
+          <div
+            style="
+              background: url(images/collection-1.jpg);
+              background-position: center;
+              height: 300px;
+            "
+            class="col-lg-4 col-md-6 col-12 my-auto"
+          >
+            <div
+              class="col-lg-3-text h-100 d-flex flex-column justify-content-between p-3"
+            >
+              <div>
+                <h3 style="font-size: var(--fs-8)">Summer Collection</h3>
+                <p style="font-size: var(--fs-9)">Starting at $17.99</p>
+              </div>
+              <div>
+                <div class="d-flex align-items-start gap-1">
+                  <p class="fs-5">
+                    <a class="text-decoration-none text-dark" href="#"
+                      >Shop now</a
+                    >
+                  </p>
+                  <i class="fa-solid fa-arrow-right fs-5 mt-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              background: url(images/collection-2.jpg);
+              background-position: center;
+              height: 300px;
+            "
+            class="col-lg-3 col-md-5 col-12 my-auto"
+          >
+            <div
+              class="col-lg-3-text h-100 d-flex flex-column justify-content-between p-3"
+            >
+              <div>
+                <h3 style="font-size: var(--fs-8)">What's New?</h3>
+                <p style="font-size: var(--fs-9)">Get the Glow</p>
+              </div>
+              <div>
+                <div class="d-flex align-items-start gap-1">
+                  <p class="fs-5">
+                    <a class="text-decoration-none text-dark" href="#"
+                      >Discover now</a
+                    >
+                  </p>
+                  <i class="fa-solid fa-arrow-right fs-5 mt-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style="
+              background: url(images/collection-3.jpg);
+              background-position: center;
+              height: 300px;
+            "
+            class="col-lg-4 my-auto fs-5"
+          >
+            <div
+              class="col-lg-4-text h-100 d-flex flex-column justify-content-between p-3"
+            >
+              <div>
+                <h3 style="font-size: var(--fs-8)">But 1 get 1</h3>
+                <p style="font-size: var(--fs-9)">Starting at $7.99</p>
+              </div>
+              <div>
+                <div class="d-flex align-items-start gap-1">
+                  <p class="fs-5">
+                    <a class="text-decoration-none text-dark" href="#"
+                      >Discover now</a
+                    >
+                  </p>
+                  <i class="fa-solid fa-arrow-right fs-5 mt-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BESTSELLING -->
+    <section id="shop" id class="bestseller"  data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container">
+        <div class="best-seller-content">
+          <div class="head-nav d-flex justify-content-between">
+            <h3> Bestsellings</h3>
+            <div class="d-flex align-items-start gap-1">
+              <p class="fs-5">
+                <a class="text-decoration-none text-dark" href="#"
+                  >Shop all product</a
+                >
+              </p>
+              <i class="fa-solid fa-arrow-right fs-5 mt-2"></i>
+            </div>
+          </div>
+
+          <!-- swiper -->
+          <div class="swiper mySwiper mb-lg-2">
+            <div class="swiper-wrapper h-100">
+              <div
+                style="
+                  background: url(/images/product-01.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-lg-3 gap-1 ms-auto ms-lg-5 px-lg-5 ">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-lg-3 p-1 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-auto pt-lg-auto d-lg-block d-none">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$39.00</h6>
+                
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-02.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Bio shroom Rejuvating Serum</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-03.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Coffee Bean Caffeine Eye Cream</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-04.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-05.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-06.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BESTSELLING  TWO-->
+    <section id="shop" class="bestseller"  data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container">
+        <div class="best-seller-content">
+          <div class="head-nav d-flex justify-content-between">
+            <h3>Under $25</h3>
+            <div class="d-flex align-items-start gap-1">
+              <p class="fs-5">
+                <a class="text-decoration-none text-dark" href="#"
+                  >Shop all product</a
+                >
+              </p>
+              <i class="fa-solid fa-arrow-right fs-5 mt-2"></i>
+            </div>
+          </div>
+
+          <!-- swiper -->
+          <div class="swiper mySwiper mb-5">
+            <div class="swiper-wrapper h-100">
+              <div
+                style="
+                  background: url(/images/product-07.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-lg-3 gap-1 ms-auto ms-lg-5 px-lg-5 ">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-lg-3 p-1 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-auto pt-lg-auto d-lg-block d-none">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$39.00</h6>
+                
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-08.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Bio shroom Rejuvating Serum</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-09.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Coffee Bean Caffeine Eye Cream</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-10.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-11.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: url(/images/product-12.jpg);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+                class="swiper-slide swiper-one"
+              >
+                <div class="icons gap-3 ms-auto ms-lg-5 px-lg-5">
+                  <i
+                    class="fa-solid fa-bag-shopping bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-star bg-success text-light p-3 rounded-5"
+                  ></i>
+                  <i
+                    class="fa-solid fa-share bg-success text-light p-3 rounded-5"
+                  ></i>
+                </div>
+
+                <div class="price mt-lg-auto pt-lg-auto d-lg-block d-none ">
+                  <div class="pric d-flex justify-content-center">
+                    <h6 class="m-0 mt-lg-3">$36.00</h6>
+                  </div>
+                  <div class="info d-lg-block d-none">
+                    <h6 class="m-0">Facial Cleanser</h6>
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <i class="fa-solid fa-star text-success"></i>
+                      <h6>5170 Reviews</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVERING -->
+    <section  class="my-5 py-lg-5 "  data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container h-100">
+        <div class="row h-100  py-5  mx-auto gap-5">
+          <div style="background: url(/images/banner-1.jpg); background-position: center; background-size: cover;  background-repeat: no-repeat;" class="col-lg-7 h-100 py-5">
+           <div class="container d-flex flex-column gap-2  align-items-start mt-5 my-auto">
+            <h5>NEW COLLECTION</h5>
+            <h2  class="fw-bold">Discover Our <br> Autumn Skincare</h2>
+            <button class="btn btn-lg btn btn-light">Explore More</button>
+           </div>
+          
+          </div>
+          <div style="background: url(/images/banner-2.jpg); background-position: center;" class="col-lg-4 h-100 py-5">
+            <div class="d-flex flex-column gap-1 align-items-start mt-5  container">
+              <h2 class="fw-bold">25% off Everything</h2>
+              <p class="fs-5">Makeup with extended range in colors for every human.</p>
+              <button class="btn btn-lg btn btn-light">Shop Sale</button>
+
+
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="my-3  h-100   " data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container h-100 ">
+        <h2 class="text-center py-3">Why Shopping with Glowing?</h2>
+        <div class="row  h-100 ">
+          <div class="col-lg-4 col-6 d-flex flex-column m-auto ">
+            <div class="feature-img h-50 m-auto">
+              <img src="./images/feature-1.jpg" width="100" alt="">
+            </div>
+            <div class="content text-center">
+              <h3>Guaranteed PURE</h3>
+              <p >All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 d-flex flex-column m-auto ">
+            <div class="feature-img h-50 m-auto">
+              <img src="./images/feature-2.jpg" width="100" alt="">
+            </div>
+            <div class="content text-center">
+              <h3>Completely Cruelty-Free</h3>
+              <p >All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-6 d-flex flex-column m-auto ">
+            <div class="feature-img h-50 m-auto">
+              <img src="./images/feature-3.jpg" width="100" alt="">
+            </div>
+            <div class="content text-center">
+              <h3>Ingredient Sourcing</h3>
+              <p >All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFER -->
+    <section id="offer" class="py-4" data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-3 col-6">
+            <div class="image  h-lg-50 h-25 mt-lg-5">
+              <img src="./images/product-17.jpg" width="100%"  alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-6">
+            <div class="image h-lg-50 h-25">
+              <img src="./images/product-15.jpg" width="100%"  alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 h-75 mt-5">
+            <div class="d-flex flex-column gap-3" >
+              <h5>SPECIAL OFFER <span class="p-1 bg-dark text-light">-20%</span></h5>
+              <h2>Mountain Pine Bath Oil</h2>
+              <p class="fs-5">Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="py-5" data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container">
+        <h2 class="text-center">More to Discover</h2>
+        <div class="row h-100 mt-3 ms-lg-4">
+          <div class="col-lg-4 h-100">
+            <div class="blog-image h-50">
+              <img src="./images/blog-1.jpg" width="100%" alt="">
+            </div>
+            <div class="blog-content text-center ">
+              <h4>Find a store</h4>
+              <a class="text-decoration-none text-dark d-flex gap-1 justify-content-center" href="#">
+                <p>Our Store</p>
+                <i class="fa-solid fa-arrow-right mt-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 h-100">
+            <div class="blog-image h-100">
+              <img src="./images/blog-2.jpg" width="100%" alt="">
+            </div>
+            <div class="blog-content text-center ">
+              <h4>Find Our Blog</h4>
+              <a class="text-decoration-none text-dark d-flex gap-1 justify-content-center" href="#">
+                <p>Our Store</p>
+                <i class="fa-solid fa-arrow-right mt-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 h-100">
+            <div class="blog-image h-50">
+              <img src="./images/blog-3.jpg" width="100%" alt="">
+            </div>
+            <div class="blog-content text-center ">
+              <h4>Our Story</h4>
+              <a class="text-decoration-none text-dark d-flex gap-1 justify-content-center" href="#">
+                <p>Our Store</p>
+                <i class="fa-solid fa-arrow-right mt-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-5 " data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <ul>
+              <li><h5>Company</h5></li>
+              <li>Find a location nearest you.See <br> <a href="#">Our stories</a></li>
+              <li>+391 (0)35 2568 4593</li>
+              <li>hello@domain.com
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6">
+            <ul class="d-flex flex-column gap-1">
+              <li><h4>Useful links</h4></li>
+              <li>New Products</li>
+              <li>Best Sellers</li>
+              <li>Bundle  & Save</li>
+              <li>Online Gift Card</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul>
+              <li><h4>Information</h4></li>
+              <li>Start a Return</li>
+              <li>Contact Us</li>
+              <li>Shipping FAQ</li>
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Good Emails</h4>
+            <p>Enter your email below to be the first to know about new  collections and product launches</p>
+            <input class="w-75 py-2" type="text" placeholder="Enter your email">
+            <input class="py-2 p-1 bg-success text-light" type="button" value="Subscribe">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
